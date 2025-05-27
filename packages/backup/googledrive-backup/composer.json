@@ -1,5 +1,5 @@
 {
-  "name": "laravel/waheed-googledrive-backup",
+  "name": "waheed/googledrive-backup",
   "description": "Google Drive adapter and backup integration for Laravel",
   "type": "library",
   "license": "MIT",
