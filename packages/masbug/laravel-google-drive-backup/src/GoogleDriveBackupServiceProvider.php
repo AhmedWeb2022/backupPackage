@@ -11,23 +11,26 @@ class GoogleDriveBackupServiceProvider extends ServiceProvider
         // Publish config file
         // Publish config file
         $this->publishes([
-            __DIR__ . '/../../config/backup.php' => config_path('backup.php'),
-        ], 'config');
+            __DIR__ . '/../config/backup.php' => config_path('waheed-config.php'),
+        ], 'waheed-config');
 
         // Register commands only if running in console
-        if ($this->app->runningInConsole()) {
-            $this->commands([
-                Commands\BackupRunCommand::class,
-                Commands\BackupCleanCommand::class,
-                Commands\BackupStoreLinkCommand::class,
-                Commands\BackupDeleteOldFilesCommand::class,
-            ]);
-        }
+        // if ($this->app->runningInConsole()) {
+        //     $this->commands([
+        //         Commands\BackupRunCommand::class,
+        //         Commands\BackupCleanCommand::class,
+        //         Commands\BackupStoreLinkCommand::class,
+        //         Commands\BackupDeleteOldFilesCommand::class,
+        //     ]);
+        // }
     }
 
     public function register()
     {
         // Merge config so users can override defaults
-        $this->mergeConfigFrom(__DIR__ . '/../../config/backup.php', 'backup');
+        $this->mergeConfigFrom(
+            __DIR__ . '/../config/backup.php',
+            'backup'
+        );
     }
 }

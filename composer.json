@@ -13,8 +13,8 @@
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
         "masbug/flysystem-google-drive-ext": "^2.4",
-        "waheed43/googledrive-backup": "^1.0" ,
         "spatie/laravel-backup": "^9.3",
+      "waheed43/googledrive-backup": "dev-main",
         "yaza/laravel-google-drive-storage": "^4.1"
     },
     "require-dev": {
@@ -74,6 +74,13 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+  {
+    "type": "path",
+    "url": "packages/masbug/laravel-google-drive-backup"
+  }
+]
+
 
 }

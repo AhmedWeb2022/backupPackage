@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "378ea4b98a79f6d9d2d869d990102a8c",
+    "content-hash": "f662f495a0fe5cd3d392b8c48fae1237",
     "packages": [
         {
             "name": "brick/math",
@@ -6875,65 +6875,44 @@
         },
         {
             "name": "waheed43/googledrive-backup",
-            "version": "v1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/AhmedWeb2022/backupPackage.git",
-                "reference": "6e766b7de6d1cb9fd8241ff696d243f35b46439c"
-            },
+            "version": "dev-main",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/AhmedWeb2022/backupPackage/zipball/6e766b7de6d1cb9fd8241ff696d243f35b46439c",
-                "reference": "6e766b7de6d1cb9fd8241ff696d243f35b46439c",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/masbug/laravel-google-drive-backup",
+                "reference": "4554aae269988baf25c777e41dfa84a14ce4fd0e"
             },
             "require": {
-                "google/apiclient": "^2.15.0",
-                "irazasyed/telegram-bot-sdk": "^3.15",
-                "laravel/framework": "^11.31",
-                "laravel/sanctum": "^4.0",
-                "laravel/tinker": "^2.9",
-                "masbug/flysystem-google-drive-ext": "^2.4",
-                "php": "^8.2",
-                "spatie/laravel-backup": "^9.3",
-                "yaza/laravel-google-drive-storage": "^4.1"
+                "google/apiclient": "^2.0",
+                "illuminate/support": "^10.0|^11.0",
+                "irazasyed/telegram-bot-sdk": "^3.0",
+                "php": "^8.0"
             },
-            "require-dev": {
-                "fakerphp/faker": "^1.23",
-                "laravel/pail": "^1.1",
-                "laravel/pint": "^1.13",
-                "laravel/sail": "^1.26",
-                "mockery/mockery": "^1.6",
-                "nunomaduro/collision": "^8.1",
-                "phpunit/phpunit": "^11.0.1"
-            },
-            "type": "project",
+            "type": "library",
             "extra": {
                 "laravel": {
-                    "dont-discover": []
+                    "providers": [
+                        "Masbug\\GoogleDriveBackup\\GoogleDriveBackupServiceProvider"
+                    ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "App\\": "app/",
-                    "Database\\Seeders\\": "database/seeders/",
-                    "Database\\Factories\\": "database/factories/"
+                    "Masbug\\GoogleDriveBackup\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "description": "The skeleton application for the Laravel framework.",
-            "keywords": [
-                "framework",
-                "laravel"
+            "authors": [
+                {
+                    "name": "Your Name",
+                    "email": "your-email@example.com"
+                }
             ],
-            "support": {
-                "issues": "https://github.com/AhmedWeb2022/backupPackage/issues",
-                "source": "https://github.com/AhmedWeb2022/backupPackage/tree/v1.0.3"
-            },
-            "time": "2025-05-27T09:26:30+00:00"
+            "description": "Laravel package for backing up and managing backups on Google Drive with Telegram notifications",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "webmozart/assert",
@@ -9366,7 +9345,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "waheed43/googledrive-backup": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
