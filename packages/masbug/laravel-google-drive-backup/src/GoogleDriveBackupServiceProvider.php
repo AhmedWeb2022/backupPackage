@@ -28,6 +28,6 @@ class GoogleDriveBackupServiceProvider extends ServiceProvider
     public function register()
     {
         // Merge config so users can override defaults
-        $this->mergeConfigFrom(__DIR__ . '/../config/backup.php', 'backup');
+        $this->mergeConfigFrom(__DIR__ . '/../../config/backup.php', 'backup');
     }
 }
