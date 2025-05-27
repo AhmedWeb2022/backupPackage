@@ -11,7 +11,7 @@ class GoogleDriveBackupServiceProvider extends ServiceProvider
         // Publish config file
         // Publish config file
         $this->publishes([
-            __DIR__ . '/../config/backup.php' => config_path('waheed-config.php'),
+            __DIR__ . '/../../config/backup.php' => config_path('waheed-config.php'),
         ], 'waheed-config');
 
         // Register commands only if running in console
@@ -29,7 +29,7 @@ class GoogleDriveBackupServiceProvider extends ServiceProvider
     {
         // Merge config so users can override defaults
         $this->mergeConfigFrom(
-            __DIR__ . '/../config/backup.php',
+            __DIR__ . '/../../config/backup.php',
             'backup'
         );
     }
