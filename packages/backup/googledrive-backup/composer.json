@@ -1,11 +1,11 @@
 {
-  "name": "waheed43/googledrive-backup",
+  "name": "waheed/waheed-googledrive-backup",
   "description": "Google Drive adapter and backup integration for Laravel",
   "type": "library",
   "license": "MIT",
   "authors": [
     {
-      "name": "Your Name",
+      "name": "Waheed",
       "email": "your.email@example.com"
     }
   ],
@@ -18,16 +18,16 @@
   },
   "autoload": {
     "psr-4": {
-      "backup\\GoogleDriveBackup\\": "src/"
+      "Backup\\GoogleDriveBackup\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "backup\\GoogleDriveBackup\\GoogleDriveBackupServiceProvider"
+        "Backup\\GoogleDriveBackup\\GoogleDriveBackupServiceProvider"
       ],
       "aliases": {
-        "GoogleDriveAdapter": "backup\\GoogleDriveBackup\\Facades\\GoogleDriveAdapter"
+        "GoogleDriveAdapter": "Backup\\GoogleDriveBackup\\Facades\\GoogleDriveAdapter"
       }
     }
   }
