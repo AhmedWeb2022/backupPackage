@@ -12,13 +12,16 @@ class GoogleDriveBackupServiceProvider extends ServiceProvider
     {
         // Publish config
         $this->publishes([
-            __DIR__.'/../config/googledrive.php' => config_path('googledrive.php'),
-        ], 'config');
+            __DIR__ . '/../config/googledrive-backup.php' => config_path('googledrive-backup.php'),
+        ], 'googledrive-backup-config');
     }
 
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/googledrive.php', 'googledrive');
+        $this->mergeConfigFrom(
+            __DIR__ . '/../config/googledrive-backup.php',
+            'googledrive-backup'
+        );
 
         // Register Google Drive Client and Adapter as singleton
         $this->app->singleton(GoogleDriveAdapter::class, function ($app) {
