@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f662f495a0fe5cd3d392b8c48fae1237",
+    "content-hash": "a32ae323a0ab6a11b08f2670b8b4d28d",
     "packages": [
         {
             "name": "brick/math",
@@ -6875,44 +6875,65 @@
         },
         {
             "name": "waheed43/googledrive-backup",
-            "version": "dev-main",
+            "version": "v1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AhmedWeb2022/backupPackage.git",
+                "reference": "68e855a3d965c227277a1a90719fd2c8cd013372"
+            },
             "dist": {
-                "type": "path",
-                "url": "packages/masbug/laravel-google-drive-backup",
-                "reference": "4554aae269988baf25c777e41dfa84a14ce4fd0e"
+                "type": "zip",
+                "url": "https://api.github.com/repos/AhmedWeb2022/backupPackage/zipball/68e855a3d965c227277a1a90719fd2c8cd013372",
+                "reference": "68e855a3d965c227277a1a90719fd2c8cd013372",
+                "shasum": ""
             },
             "require": {
-                "google/apiclient": "^2.0",
-                "illuminate/support": "^10.0|^11.0",
-                "irazasyed/telegram-bot-sdk": "^3.0",
-                "php": "^8.0"
+                "google/apiclient": "^2.15.0",
+                "irazasyed/telegram-bot-sdk": "^3.15",
+                "laravel/framework": "^11.31",
+                "laravel/sanctum": "^4.0",
+                "laravel/tinker": "^2.9",
+                "masbug/flysystem-google-drive-ext": "^2.4",
+                "php": "^8.2",
+                "spatie/laravel-backup": "^9.3",
+                "yaza/laravel-google-drive-storage": "^4.1"
             },
-            "type": "library",
+            "require-dev": {
+                "fakerphp/faker": "^1.23",
+                "laravel/pail": "^1.1",
+                "laravel/pint": "^1.13",
+                "laravel/sail": "^1.26",
+                "mockery/mockery": "^1.6",
+                "nunomaduro/collision": "^8.1",
+                "phpunit/phpunit": "^11.0.1"
+            },
+            "type": "project",
             "extra": {
                 "laravel": {
-                    "providers": [
-                        "Masbug\\GoogleDriveBackup\\GoogleDriveBackupServiceProvider"
-                    ]
+                    "dont-discover": []
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Masbug\\GoogleDriveBackup\\": "src/"
+                    "App\\": "app/",
+                    "Database\\Seeders\\": "database/seeders/",
+                    "Database\\Factories\\": "database/factories/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "authors": [
-                {
-                    "name": "Your Name",
-                    "email": "your-email@example.com"
-                }
+            "description": "The skeleton application for the Laravel framework.",
+            "keywords": [
+                "framework",
+                "laravel"
             ],
-            "description": "Laravel package for backing up and managing backups on Google Drive with Telegram notifications",
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/AhmedWeb2022/backupPackage/issues",
+                "source": "https://github.com/AhmedWeb2022/backupPackage/tree/v1.0.5"
+            },
+            "time": "2025-05-27T12:14:46+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -9345,9 +9366,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "waheed43/googledrive-backup": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

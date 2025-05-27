@@ -14,7 +14,7 @@
         "laravel/tinker": "^2.9",
         "masbug/flysystem-google-drive-ext": "^2.4",
         "spatie/laravel-backup": "^9.3",
-      "waheed43/googledrive-backup": "dev-main",
+        "waheed43/googledrive-backup": "^1.0.5",
         "yaza/laravel-google-drive-storage": "^4.1"
     },
     "require-dev": {
@@ -30,7 +30,8 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+             "Masbug\\GoogleDriveBackup\\": "src/"
         }
     },
     "autoload-dev": {
@@ -74,13 +75,9 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true,
-    "repositories": [
-  {
-    "type": "path",
-    "url": "packages/masbug/laravel-google-drive-backup"
-  }
-]
+    "prefer-stable": true
+
+
 
 
 }
