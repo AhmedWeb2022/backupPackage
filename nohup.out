@@ -1,163 +1,72 @@
-
-   INFO  Running scheduled tasks.  
-
-  2025-05-18 12:59:00 Running ['artisan' backup:clean] ............... 1s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 12:59:02 Running ['artisan' backup:run] ................. 3s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:00:00 Running ['artisan' backup:clean] ............... 2s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:00:02 Running ['artisan' backup:run] ................. 3s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:01:00 Running ['artisan' backup:clean] ............... 1s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:01:02 Running ['artisan' backup:run] ................. 3s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:02:00 Running ['artisan' backup:clean] ............... 1s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:02:02 Running ['artisan' backup:run] ................. 2s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:03:00 Running ['artisan' backup:clean] ............... 1s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:03:02 Running ['artisan' backup:run] ................. 3s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:04:00 Running ['artisan' backup:clean] ............... 2s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:04:02 Running ['artisan' backup:run] ................. 2s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:05:00 Running ['artisan' backup:clean] ............... 1s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:05:02 Running ['artisan' backup:run] ................. 2s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:06:00 Running ['artisan' backup:clean] ............... 2s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:06:02 Running ['artisan' backup:run] ................. 3s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:07:00 Running ['artisan' backup:clean] ............... 2s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:07:02 Running ['artisan' backup:run] ................. 3s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:08:00 Running ['artisan' backup:clean] ............... 2s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:08:02 Running ['artisan' backup:run] ................. 3s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:09:00 Running ['artisan' backup:clean] ............... 2s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:09:02 Running ['artisan' backup:run] ................. 3s FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-In ProviderRepository.php line 206:
-                                                              
-  Class "App\Providers\GoogleDriveServiceProvider" not found  
-                                                              
-
-  2025-05-18 13:11:00 Running ['artisan' backup:clean] ......... 901.41ms FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:11:01 Running ['artisan' backup:run] ........... 495.42ms FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:12:00 Running ['artisan' backup:clean] ......... 671.21ms FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:12:00 Running ['artisan' backup:run] ........... 541.75ms FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:13:00 Running ['artisan' backup:clean] ......... 614.41ms FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:13:00 Running ['artisan' backup:run] ........... 525.78ms FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:14:00 Running ['artisan' backup:clean] ......... 505.32ms FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:14:00 Running ['artisan' backup:run] ........... 587.99ms FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:15:00 Running ['artisan' backup:clean] ......... 644.53ms FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:15:00 Running ['artisan' backup:run] ........... 549.36ms FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:16:00 Running ['artisan' backup:clean] ......... 682.19ms FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:16:01 Running ['artisan' backup:run] ........... 497.72ms FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:17:00 Running ['artisan' backup:clean] ......... 560.99ms FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:17:00 Running ['artisan' backup:run] ........... 505.45ms FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:18:00 Running ['artisan' backup:clean] ......... 586.22ms FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:18:00 Running ['artisan' backup:run] ........... 521.83ms FAIL
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:19:00 Running ['artisan' backup:clean] ......... 290.39ms DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:19:00 Running ['artisan' backup:run] ................. 1s DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:20:00 Running ['artisan' backup:clean] ......... 310.17ms DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:20:00 Running ['artisan' backup:run] ................. 1s DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:21:00 Running ['artisan' backup:clean] ......... 280.96ms DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:21:00 Running ['artisan' backup:run] ................. 1s DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:22:00 Running ['artisan' backup:clean] ......... 282.98ms DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:22:00 Running ['artisan' backup:run] ................. 1s DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:23:00 Running ['artisan' backup:clean] ......... 284.58ms DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:23:00 Running ['artisan' backup:run] ................. 1s DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:24:00 Running ['artisan' backup:clean] ......... 279.84ms DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:24:00 Running ['artisan' backup:run] ................. 1s DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:25:00 Running ['artisan' backup:clean] ......... 276.63ms DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:25:00 Running ['artisan' backup:run] ................. 1s DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:26:00 Running ['artisan' backup:clean] ......... 279.22ms DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:26:00 Running ['artisan' backup:run] ................. 1s DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:27:00 Running ['artisan' backup:clean] ......... 282.19ms DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:27:00 Running ['artisan' backup:run] ................. 1s DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:28:00 Running ['artisan' backup:clean] ......... 279.70ms DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:28:00 Running ['artisan' backup:run] ................. 1s DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:29:00 Running ['artisan' backup:clean] ......... 277.38ms DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:29:00 Running ['artisan' backup:run] ................. 1s DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
-  2025-05-18 13:30:00 Running ['artisan' backup:clean] ......... 298.80ms DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:clean > '/dev/null' 2>&1  
-  2025-05-18 13:30:00 Running ['artisan' backup:run] ................. 1s DONE
-  ⇂ '/usr/bin/php8.3' 'artisan' backup:run > '/dev/null' 2>&1  
-
+ "keywords": ["laravel", "framework"],
+    "require": {
+        "php": "^8.2",
+        "google/apiclient": "^2.15.0",
+        "irazasyed/telegram-bot-sdk": "^3.15",
+        "laravel/framework": "^11.31",
+        "laravel/sanctum": "^4.0",
+        "laravel/tinker": "^2.9",
+        "masbug/flysystem-google-drive-ext": "^2.4",
+        "spatie/laravel-backup": "^9.3",
+        "waheed43/googledrive-backup": "^1.0.5",
+        "yaza/laravel-google-drive-storage": "^4.1"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.23",
+        "laravel/pail": "^1.1",
+        "laravel/pint": "^1.13",
+        "laravel/sail": "^1.26",
+        "mockery/mockery": "^1.6",
+        "nunomaduro/collision": "^8.1",
+        "phpunit/phpunit": "^11.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/",
+             "Masbug\\GoogleDriveBackup\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-update-cmd": [
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi",
+            "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
+            "@php artisan migrate --graceful --ansi"
+        ],
+        "dev": [
+            "Composer\\Config::disableProcessTimeout",
+            "npx concurrently -c \"#93c5fd,#c4b5fd,#fb7185,#fdba74\" \"php artisan serve\" \"php artisan queue:listen --tries=1\" \"php artisan pail --timeout=0\" \"npm run dev\" --names=server,queue,logs,vite"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
