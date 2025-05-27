@@ -1,6 +1,6 @@
 <?php
 
-namespace backup\GoogleDriveBackup;
+namespace Masbug\GoogleDriveBackup\Services;
 
 use Google\Service\Drive;
 use Google\Service\Drive\DriveFile;
@@ -12,7 +12,7 @@ use League\Flysystem\UnableToDeleteFile;
 use League\Flysystem\FileAttributes;
 use League\Flysystem\UnableToRetrieveMetadata;
 
-class GoogleDriveAdapter implements FilesystemAdapter
+class GoogleDriveAdapter
 {
     protected $service;
     protected $folderId;

@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "waheed43/googledrive-backup",
+    "name": "waheed423/googledrive-backup",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
     "keywords": ["laravel", "framework"],
@@ -13,6 +13,7 @@
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
         "masbug/flysystem-google-drive-ext": "^2.4",
+        "waheed43/googledrive-backup": "^1.0" ,
         "spatie/laravel-backup": "^9.3",
         "yaza/laravel-google-drive-storage": "^4.1"
     },
@@ -73,11 +74,6 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true,
-    "repositories": [
-  {
-    "type": "path",
-    "url": "./packages/backup/GoogleDriveBackup"
-  }
-]
+    "prefer-stable": true
+
 }
