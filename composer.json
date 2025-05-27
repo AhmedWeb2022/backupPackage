@@ -7,7 +7,6 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "backup/googledrive-backup": "@dev",
         "google/apiclient": "^2.15.0",
         "irazasyed/telegram-bot-sdk": "^3.15",
         "laravel/framework": "^11.31",
